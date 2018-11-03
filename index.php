@@ -71,12 +71,12 @@
         </svg> -->
 
         <div class="logo_loader_2">
-            <div class="logo_side_1"></div>
+            <!-- <div class="logo_side_1"></div>
             <div class="logo_side_2"></div>
             <div class="logo_side_3"></div>
             <div class="logo_side_4"></div>
             <div class="logo_side_5"></div>
-            <div class="logo_side_6"></div>
+            <div class="logo_side_6"></div> -->
 
             <div class="logo_shape_1"></div>
             <div class="logo_shape_2"></div>
@@ -85,10 +85,6 @@
             <div class="logo_shape_5"></div>
             <div class="logo_shape_6"></div>
             <div class="logo_shape_7"></div>
-            <div class="logo_shape_8"></div>
-            <div class="logo_shape_9"></div>
-            <div class="logo_shape_10"></div>
-            <div class="logo_shape_11"></div>
         </div>
 
     </div>
@@ -147,11 +143,11 @@
             </div>
         </div>
 
-        <div class="scroll_container">
+        <!-- <div class="scroll_container">
             <a href="#works" class="scroll-down">
                 <i class="fa fa-chevron-down" aria-hidden="true"></i>
             </a>
-        </div>
+        </div> -->
 
         <!-- div class="header_bottom"></div -->
 
@@ -200,7 +196,6 @@
                             <img src="assets/img/yogic_hexa.png">
                         </a>
                     </div>
-
 
                 </div>
             </div>
@@ -277,41 +272,38 @@
                 </div>
             </div>
         </div>
-        <div class="scroll_container">
-            <a href="#contact" class="scroll-down">
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </a>
-        </div>
+        
     </div>
     
     
-    <!-- CONTACT FORM -->
+    <!-- CONTACT -->
 
-    <?php include 'partials/form.php';?>
+    <div class="col-lg-12 text-center">
+        <h1>Contact Me</h1>
+        <h3 id="email">gfodor85@gmail.com</h3>
+        <ul>
+            
+            <li>
+                <a href="http://www.github.com/gfodor85" target="_blank">
+                    <svg class="github_logo" id="footer_social">
+                        <use xlink:href="assets/img/svg/symbols.svg#github_logo"></use>
+                    </svg>
+                </a>
+            </li>
 
+            <li>
+                <a href="http://www.linkedin.com/in/gyorgyfodor" target="_blank">
+                    <svg class="linkedin_logo" id="footer_social">
+                        <use xlink:href="assets/img/svg/symbols.svg#linkedin_logo"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
 
     <!-- Footer -->
     <footer>
-        <div class="col-lg-12 text-center">
-            <ul>
-                <li>
-                    <a href="http://www.github.com/gfodor85" target="_blank">
-                        <svg class="github_logo" id="footer_social">
-                            <use xlink:href="assets/img/svg/symbols.svg#github_logo"></use>
-                        </svg>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="http://www.linkedin.com/in/gyorgyfodor" target="_blank">
-                        <svg class="linkedin_logo" id="footer_social">
-                            <use xlink:href="assets/img/svg/symbols.svg#linkedin_logo"></use>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <span>Made by George Fodor</span>
+        <span>Made by Gyorgy Fodor</span>
     </footer>
 
 
