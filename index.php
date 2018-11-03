@@ -50,13 +50,14 @@
 
 </head>
 
-<body id="main-site">
+<body>
     <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <div id="loader_container">
-        <div class="hexa_loader">
+    <div id="loader_container">    
+
+        <div class="hexa_loader" style="text-align:center;">
             <div class="hexa_side_1"></div>
             <div class="hexa_side_2"></div>
             <div class="hexa_side_3"></div>
@@ -64,11 +65,32 @@
             <div class="hexa_side_5"></div>
             <div class="hexa_side_6"></div>
         </div>
-        <div>
-            <svg class="logo_loader">
-                <use xlink:href="assets/img/svg/symbols.svg#logo"></use>
-            </svg>
+
+        <!-- <svg class="logo_loader">
+            <use xlink:href="assets/img/svg/symbols.svg#logo"></use>
+        </svg> -->
+
+        <div class="logo_loader_2">
+            <div class="logo_side_1"></div>
+            <div class="logo_side_2"></div>
+            <div class="logo_side_3"></div>
+            <div class="logo_side_4"></div>
+            <div class="logo_side_5"></div>
+            <div class="logo_side_6"></div>
+
+            <div class="logo_shape_1"></div>
+            <div class="logo_shape_2"></div>
+            <div class="logo_shape_3"></div>
+            <div class="logo_shape_4"></div>
+            <div class="logo_shape_5"></div>
+            <div class="logo_shape_6"></div>
+            <div class="logo_shape_7"></div>
+            <div class="logo_shape_8"></div>
+            <div class="logo_shape_9"></div>
+            <div class="logo_shape_10"></div>
+            <div class="logo_shape_11"></div>
         </div>
+
     </div>
 
     <header>
