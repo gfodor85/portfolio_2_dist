@@ -180,7 +180,7 @@
                     </div>
 
                     <div class="hexagon-item">
-                        <a href="http://fuseworks.io/subdomains/dentico/" target="_blank" class="hexagon-img">
+                        <a href="https://dentico-dist.herokuapp.com/" target="_blank" class="hexagon-img">
                             <img src="assets/img/dentico_hexa.png">
                         </a>
                     </div>
