@@ -1,0 +1,96 @@
+//CAROUSEL
+
+.carousel-container
+    position: relative
+    height: 400px
+    padding: 30px 0 0 0
+    color: $text_icons
+    background:
+        image: url(../img/testimonials_bg.jpg)
+        size: cover
+        position: center center
+        attachment: fixed
+    
+    .swiper-container
+        height: auto !important
+        max-width: 900px
+        padding-bottom: 50px
+
+    .swiper-slide-shadow-left, .swiper-slide-shadow-right
+        background: none !important
+
+    .swiper-button-prev, .swiper-button-next
+        position: absolute
+        top: 50%
+        width: 27px
+        height: 44px
+        margin-top: -22px
+        z-index: 10
+        cursor: pointer
+        background-size: 27px 44px
+        background-position: center
+        background-repeat: no-repeat
+    
+    .swiper-button-next, .swiper-button-prev
+        fill: #000 !important
+
+    .swiper-container-rtl .swiper-button-prev, .swiper-button-next
+        fill: #000 !important
+
+    .carousel_modal
+        position: absolute
+        display: flex
+        justify-content: center
+        width: 100%
+        z-index: 1000
+        padding-top: 40px
+
+        .carousel_modal_inner
+            display: flex
+            flex-direction: row
+            justify-content: center
+            height: 250px
+            width: 250px
+            border-radius: 500px
+            transition: all 1s ease-out
+            //background-color: rgba(255, 255, 255, 0.8)
+
+            .gesture-swipe-left
+                display: flex
+                flex-direction: row
+                height: 180px
+                width: 180px
+                fill:  $light-primary-color
+                filter: drop-shadow(10px 10px 7px rgba(0,0,0,0.7))
+                margin-top: 30px
+                //padding-bottom: 50px
+
+//TESTINOMIALS
+.testimonials_content
+    position: relative
+    //min-width: 400px
+    min-height: 150px
+    background-color: darken( $bg-color-primary, 20% )
+    box-shadow: $shadow
+    margin-bottom: 100px
+
+    img
+        position: absolute
+        width: 100px
+        top: -50px
+        left: 10px
+    
+    h5
+        position: absolute
+        left: 120px
+
+    p
+        font-size: $font-size-normal
+        font-weight: $font-weight-normal
+        padding-top: 60px
+            
+    p:before
+        content: "\f10d"
+        font-family: 'Fontawesome'
+        float: left
+        margin-right: 10px

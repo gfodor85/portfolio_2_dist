@@ -1,0 +1,130 @@
+.blog
+    position: relative
+    width: 100%
+    height: 1000px
+    margin: 0 auto
+    padding-top: $content-padding
+    animation: fadein 2s
+
+.blog-container-1
+    display: flex
+    flex-direction: row
+    margin: 0 auto 25px
+    max-width: 650px
+    height: $blog-height
+    background-color: $light-primary-color
+    border-radius: 500px  0 0 500px
+    box-shadow: $shadow2
+
+    .blog-image-container-1
+        float: left
+
+        img
+            height: $blog-height
+            border-radius: 50%
+    
+    .blog-text-container-1
+        max-width: 430px
+        float: left
+
+        .blog-text-1
+            margin: 0 0 0 30px
+            text-align: justify
+
+    .continue-link
+        float: right
+        text-decoration: underline
+
+.blog-container-2
+    display: flex
+    flex-direction: row
+    margin: 0 auto 25px
+    max-width: 650px
+    height: $blog-height
+    background-color: $light-primary-color
+    border-radius: 0 500px 500px 0
+    box-shadow: $shadow2
+
+    .blog-image-container-2
+        position: relative
+        right: -20px
+
+        img          
+            height: $blog-height
+            border-radius: 50%
+    
+    .blog-text-container-2
+        max-width: 430px
+        float: right
+
+        .blog-text-2
+            margin: 0 30px 0 30px
+            text-align: justify
+
+    .continue-link
+        float: right
+        text-decoration: underline
+        margin-top: -20px
+
+
+@keyframes fadein
+    from
+        opacity: 0
+    to
+        opacity: 1
+
+@media (max-width: 700px)
+    .blog-container-1
+        flex-direction: column
+        padding-bottom: 520px
+        align-items: center
+        background-color: transparent !important
+        box-shadow: none
+
+        .blog-image-container-1
+            margin-bottom: -30px
+            background-color: transparent
+            border-radius: 0
+
+            img
+                height: 150px
+                border-radius: 50%
+                box-shadow: $shadow2
+                z-index: 10 !important
+
+        .blog-text-container-1
+            float: left
+            background-color: $light-primary-color !important
+            box-shadow: $shadow2
+            padding: 30px 0 20px 0
+
+            .blog-text-1
+                margin: 0 20px 20px 20px
+                text-align: justify
+                
+    .blog-container-2
+        flex-direction: column-reverse
+        align-items: center
+        background-color: transparent !important
+        box-shadow: none
+
+        .blog-image-container-2
+            margin-bottom: -30px
+            background-color: transparent
+            border-radius: 0
+
+            img
+                height: 150px
+                border-radius: 50%
+                box-shadow: $shadow2
+                z-index: 10 !important
+
+        .blog-text-container-2
+            float: left
+            background-color: $light-primary-color !important
+            box-shadow: $shadow2
+            padding: 30px 0 20px 0
+
+            .blog-text-2
+                margin: 0 20px 20px 20px
+                text-align: justify

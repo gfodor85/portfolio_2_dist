@@ -1,0 +1,54 @@
+.soc_icons_container
+    position: relative
+    display: block
+    background-color: $primary-color
+    text-align: center
+    padding: 50px 0 20px 0
+
+    ul
+        padding: 0 15px 0 15px
+        opacity: 0.9
+
+    .fa
+        font-size: 55px
+        color: $accent-color
+        transition: color 1s ease
+        padding: 0 50px 0 50px
+        
+        &:hover
+            color: $accent-color
+    
+    .line
+        display: inline-block
+        min-width: 250px !important
+        margin: 15px 0 15px 0
+        
+@media (max-width: 560px)
+    .soc_icons_container
+        position: relative
+        display: block
+        background-color: $primary-color
+        text-align: center
+        padding: 50px 0 20px 0
+
+        ul
+            padding: 0 15px 0 15px
+            opacity: 0.9
+
+        .fa
+            //display: inline-block
+            font-size: 30px
+            color: $accent-color
+            transition: color 1s ease
+            padding: 0 0 0 0
+
+            &:hover
+                color: $accent-color
+        
+        .fa:nth-child(2)
+            padding: 0 10vw 0 10vw
+
+        .line
+            display: block
+            width: 1vw !important
+            margin: 0 auto

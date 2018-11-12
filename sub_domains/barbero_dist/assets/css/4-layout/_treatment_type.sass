@@ -1,0 +1,75 @@
+.treatment_type_container
+    position: relative
+    top: -40px
+    height: 140px
+    z-index: 5
+           
+    .treatment_type_col
+        display: flex
+        justify-content: center
+        
+        .treatment_type_box
+            position: relative
+            height: 220px
+            width: 230px !important
+            background-color: $bg-color-primary
+            cursor: pointer 
+
+            .text-top
+                position: absolute
+                display: flex
+                justify-content: center
+                top: 5px
+                width: 100%
+
+            .text-bottom
+                position: absolute
+                display: flex
+                justify-content: center
+                top: 187px
+                width: 100%
+
+            h5, h6
+            letter-spacing: 1px
+            font-weight: $font-weight-normal !important
+        
+        img
+            position: absolute
+            margin: 0 auto
+            top: 40px
+            //left: -40px
+            cursor: pointer
+            
+
+.modal
+    font:
+        weight: 400
+        size: 15px
+    color: $primary-color
+    text-align: center
+    
+    
+    .modal-content
+        height: auto
+        border-radius: 0px !important
+        background-color: $bg-color-primary
+        box-shadow: $shadow
+        color: $primary-color
+        
+        
+        .modal-title
+            padding: 10px 0 10px 10px
+        
+    .close
+        width: 40px
+        font-size: 25px !important
+        color: $primary-color
+        z-index: 50
+        opacity: 1
+    
+@media (max-width: 992px)
+    .treatment_type_container
+        height: 600px
+
+        .treatment_type_col
+            margin: 5px 0 5px 0

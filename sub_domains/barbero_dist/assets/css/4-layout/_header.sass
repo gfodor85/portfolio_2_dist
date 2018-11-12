@@ -1,0 +1,39 @@
+// Header
+$hero-img-size: 350px
+
+header
+    @include bg_section
+    position: relative
+    width: 100vw
+    height: 600px
+    padding: 70px 0 100px 0
+
+    .hero-logo
+        display: block
+        margin: 0 auto
+        width: $hero-img-size
+        height: $hero-img-size
+        filter: drop-shadow($shadow2)
+
+    .hero-img
+        position: absolute
+        top: 150px
+        height: 441px
+        width: 450px
+        background-image: url('../../assets/img/hero-img.jpg')
+        background-position: center
+        background-size: cover
+        box-shadow: $shadow
+        margin: 90px 0 100px 0
+        padding: 20px 0
+    
+@media (max-width: 991px)
+    header
+        height: 950px
+
+        .hero-img
+            position: absolute
+            top: -70px !important
+            max-width: 100%
+            
+

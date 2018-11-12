@@ -1,0 +1,26 @@
+.about_us_container
+    position: relative
+    height: 350px
+
+    .about_content
+        position: absolute
+        top: -200px
+        height: 441px
+        background: $background-tint, url('../../assets/img/about-us_bg.jpg')
+        background-position: center
+        background-size: cover
+        box-shadow: $shadow
+        margin: 90px 0 100px 0
+        padding: 20px 0
+
+    h5
+        text-align: right
+        margin: 10px 15px
+
+@media (max-width: 991px)
+    .about_content
+        position: absolute
+        top: -150px !important
+        height: 360px !important
+        max-width: 100%
+        

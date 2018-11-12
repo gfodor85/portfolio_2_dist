@@ -1,0 +1,42 @@
+.hero
+    position: relative
+    height: 800px
+    padding-top: $content-padding
+    margin: 0 auto
+    animation: fadein 2s
+
+    h1
+        font-family: $font-family-hero-title
+        color: $text_icons
+        text-align: center
+        letter-spacing: 5px
+        padding: 0 0 15px 0
+        filter: drop-shadow($shadow)
+
+    .hero-img--container
+        display: flex
+        flex-direction: row
+        justify-content: center
+        padding-bottom: 80px
+
+        .hero-img
+            width: $hero-img-size
+            height: $hero-img-size
+            filter: drop-shadow($shadow)
+             
+    #hero-logo
+        height: 60px
+        width: 60px
+        margin: 40px 20px 30px  20px
+        transition: all 200ms ease-in
+        transform: scale(1)
+        filter: drop-shadow($shadow)
+
+        &:hover
+            transform: scale(1.2)
+
+@keyframes fadein
+    from
+        opacity: 0
+    to
+        opacity: 1
