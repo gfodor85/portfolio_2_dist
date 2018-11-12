@@ -192,7 +192,7 @@
                     </div>
 
                     <div class="hexagon-item">
-                        <a href="http://fuseworks.io/subdomains/yogic" target="_blank" class="hexagon-img">
+                        <a href="https://yogic-dist.herokuapp.com/" target="_blank" class="hexagon-img">
                             <img src="assets/img/yogic_hexa.png">
                         </a>
                     </div>
