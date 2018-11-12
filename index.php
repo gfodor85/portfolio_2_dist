@@ -186,7 +186,7 @@
                     </div>
 
                     <div class="hexagon-item">
-                        <a href="http://fuseworks.io/subdomains/barbero" target="_blank" class="hexagon-img">
+                        <a href="https://barbero-dist.herokuapp.com/" target="_blank" class="hexagon-img">
                             <img src="assets/img/barbero_hexa.png">
                         </a>
                     </div>
